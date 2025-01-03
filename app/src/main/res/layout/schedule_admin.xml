@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background2">
+
+    <!-- Judul Add Schedule -->
+    <TextView
+        android:id="@+id/tvAddScheduleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Schedule"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkpink"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Input for Event Name -->
+    <EditText
+        android:id="@+id/etEventName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Input for Day -->
+    <EditText
+        android:id="@+id/etScheduleDay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Day"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Input for Start Time -->
+    <EditText
+        android:id="@+id/etScheduleStartTime"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Start Time"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Input for End Time -->
+    <EditText
+        android:id="@+id/etScheduleEndTime"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="End Time"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button to Save -->
+    <Button
+        android:id="@+id/btnSaveSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Schedule"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/darkpink"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainInformation"
+        android:title="FAQ"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/mainabout"
+        android:title="About"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/mainpenggunaan"
+        android:title="Penggunaan"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/mainlogout"
+        android:title="Logout"
+        android:showAsAction="never" />
+
+</menu>

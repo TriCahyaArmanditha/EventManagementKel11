@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Participant"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkpink"
+        android:gravity="center"
+        android:layout_marginTop="90dp" />
+
+    <ListView
+        android:id="@+id/lvParticipants"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

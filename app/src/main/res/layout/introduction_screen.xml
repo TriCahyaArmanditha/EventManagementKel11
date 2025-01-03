@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundscreen">
+
+    <!-- Gambar di atas -->
+    <ImageView
+        android:id="@+id/ivWelcomeImage"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iconscreen2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"/>
+
+    <!-- Teks selamat datang -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Don't Miss This Exciting Event!"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/darkpink"
+        android:textAlignment="center"
+        android:layout_below="@id/ivWelcomeImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Kotak cantik dengan kombinasi warna biru dan pink -->
+    <LinearLayout
+        android:id="@+id/llWelcomeBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_box"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvWelcome"
+        android:layout_marginTop="30dp">
+
+        <!-- Teks pengantar -->
+        <TextView
+            android:id="@+id/tvIntroduction"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="We can't wait for you to join the fun and participate"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkpink" />
+
+        <!-- Progress bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background2"
+    android:gravity="center"
+    android:id="@+id/main">
+
+    <!-- Button to View Event -->
+    <ImageButton
+        android:id="@+id/btnViewEvent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/eventsetting"
+        android:contentDescription="View Event"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/viewEventText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting Events"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:shadowColor="@color/darkpink"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Button to Add Event -->
+    <ImageButton
+        android:id="@+id/btnAddEvents"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/eventadd"
+        android:contentDescription="Add Event"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/addEventText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Events"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="8dp"
+        android:shadowColor="@color/darkpink"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Button to Edit Schedule -->
+    <ImageButton
+        android:id="@+id/btnEditSchedule"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/eventscheduleadd"
+        android:contentDescription="Edit Schedule"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/editScheduleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Schedule"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="8dp"
+        android:shadowColor="@color/darkpink"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>

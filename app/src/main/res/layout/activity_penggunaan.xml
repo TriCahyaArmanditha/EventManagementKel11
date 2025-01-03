@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainpenggunaan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PenggunaanActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Panduan Penggunaan"
+        android:background="#8373A2"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Box Text -->
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="Untuk mengetahui cara menggunakan aplikasi ini silahkan cek di YouTube dibawah ini"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:background="@drawable/rounded_box"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/open_youtube_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"/>
+
+    <!-- Button to open YouTube link -->
+    <Button
+        android:id="@+id/open_youtube_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buka YouTube"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/text_info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color> <!-- Warna primer cerah, pink pastel -->
+    <color name="colorPrimaryVariant">#D500F9</color> <!-- Warna variasi untuk warna utama -->
+    <color name="colorOnPrimary">#000000</color> <!-- Warna teks di atas primary -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Warna latar belakang untuk mode terang -->
+    <color name="colorOnBackground">#212121</color> <!-- Warna teks di atas latar belakang -->
+    <color name="blue">#37128A</color>
+    <color name="pink">#FF4081</color>
+    <color name="darkpink">#75032B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
+
+
