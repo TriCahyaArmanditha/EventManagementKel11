@@ -62,7 +62,7 @@ Aplikasi sederhana dan modern untuk mempermudah pengguna mendaftar event, meliha
 ---
 
 ## 📚 Panduan Penggunaan  
-- Pengguna baru dapat melihat tutorial melalui link berikut: [Tutorial YouTube](https://youtube.com).  
+- Pengguna baru dapat melihat tutorial melalui link berikut: [Tutorial YouTube](https://youtu.be/lvN3J-0V7uU?si=-vsWmDPWfgMZlZjT).  
 - Admin dapat langsung menggunakan fitur-fitur lengkap di dashboard admin.  
 
 ---
