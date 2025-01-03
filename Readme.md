@@ -43,13 +43,13 @@ Aplikasi sederhana dan modern untuk mempermudah pengguna mendaftar event, meliha
 ## 📸 Tampilan Aplikasi  
 
 ### Dashboard Login  
-<img src="dashboardlogin.jpg" alt="Dashboard Login" width="400" />
+<img src="dashboardlogin.jpg" alt="Dashboard Login" width="200" />
 
 ### Dashboard User  
-<img src="dashboarduser.jpg" alt="Dashboard User" width="400" />
+<img src="dashboarduser.jpg" alt="Dashboard User" width="200" />
 
 ### Dashboard Admin  
-<img src="dashboardadmin.jpg" alt="Dashboard Admin" width="400" />
+<img src="dashboardadmin.jpg" alt="Dashboard Admin" width="200" />
 
 ---
 
