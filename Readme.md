@@ -43,16 +43,16 @@ Aplikasi sederhana dan modern untuk mempermudah pengguna mendaftar event, meliha
 ## 📸 Tampilan Aplikasi  
 
 ### Splash Screen  
-![Splash Screen](screenshots/splash.png)  
+![Splash Screen](c:\Users\user\AndroidStudioProjects\EventManagementKel11\splashscreen.jpg)  
 
 ### Dashboard Login  
-![Dashboard Login](screenshots/login.png)  
+![Dashboard Login](c:\Users\user\AndroidStudioProjects\EventManagementKel11\dashboardlogin.jpg)  
 
 ### Dashboard User  
-![Dashboard User](screenshots/dashboard_user.png)  
+![Dashboard User](c:\Users\user\AndroidStudioProjects\EventManagementKel11\dashboardadmin.jpg)  
 
 ### Dashboard Admin  
-![Dashboard Admin](screenshots/dashboard_admin.png)  
+![Dashboard Admin](c:\Users\user\AndroidStudioProjects\EventManagementKel11\dashboarduser.jpg)  
 
 ---
 
@@ -72,4 +72,4 @@ Aplikasi sederhana dan modern untuk mempermudah pengguna mendaftar event, meliha
 
 ## ❤ Tentang Developer  
 *Tri Cahya Armanditha*  
-"Made with love and a touch of humor to bring a delightful experience for everyone."
+"Made with love and a touch of humor to bring a delightful experience for everyone."
