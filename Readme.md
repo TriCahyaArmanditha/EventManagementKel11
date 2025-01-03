@@ -42,17 +42,14 @@ Aplikasi sederhana dan modern untuk mempermudah pengguna mendaftar event, meliha
 
 ## 📸 Tampilan Aplikasi  
 
-### Splash Screen  
-![Splash Screen](c:\Users\user\AndroidStudioProjects\EventManagementKel11\splashscreen.jpg)  
-
 ### Dashboard Login  
-![Dashboard Login](c:\Users\user\AndroidStudioProjects\EventManagementKel11\dashboardlogin.jpg)  
+![Dashboard Login](dashboardlogin.jpg)  
 
 ### Dashboard User  
-![Dashboard User](c:\Users\user\AndroidStudioProjects\EventManagementKel11\dashboardadmin.jpg)  
+![Dashboard User](dashboarduser.jpg)  
 
 ### Dashboard Admin  
-![Dashboard Admin](c:\Users\user\AndroidStudioProjects\EventManagementKel11\dashboarduser.jpg)  
+![Dashboard Admin](dashboardadmin.jpg)  
 
 ---
 
